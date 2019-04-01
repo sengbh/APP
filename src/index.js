@@ -1,8 +1,10 @@
 import React from 'react'
 
-import AddCity from './AddCity'
-import Cities from './Cities'
-import City from './City'
+import AddCity from './AddCity/AddCity'
+import Cities from './Cities/Cities'
+import City from './Cities/City'
+
+import {colors} from './theme'
 
 import {createStackNavigator, createBottomTabNavigator} from 'react-navigation'
 import { conditionalExpression } from '@babel/types';
