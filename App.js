@@ -16,10 +16,29 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
     'Shake or press menu button for dev menu',
 }); */
 import Tabs from './src'
+import City from './src/Cities/City';
 
 export default class App extends Component {
+  state = {
+    cities: []
+  }
+  addCity = () => {
+    const cities = this.state.cities
+    cities.push(city)
+    this.setState({cities})
+  }
+  addLocation = () =>{
+
+  }
   render() {
-    return <Tabs />
+    return (
+    <Tabs
+      screenProps={{
+        cities: this.state.cities, 
+        addCity: this.addCity
+      }}
+     />
+    )
   }
 }
 
