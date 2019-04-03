@@ -1,49 +1,56 @@
-# Project Name
-> Here goes your awesome project description!
+## PROJECT APP 101
+> First app created for self learning purpose.  The app is basic and is to display some basic functionalities.  
 
-## Table of contents
+### Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+### General info
+Again, the app is created for personal learning purpose.  The first app I create using React Native and its environment.
 
-## Screenshots
+### Screenshots
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Watchman - version 4.9.0
+* Git - version 2.17.1
+* Visual Studio Code - version 1.32.3
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Required Dependencie:
+Note: Node.js >= 4.0 is needed if you haven't installed
+* iOS (install/Xcode)
+    > react-native run-ios
+* Android
+    > npm install -g expo-cli
+    > react-native run-android
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+* npm install -g react-native-cli
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+##### run this project
+* git clone https://github.com/sengbh/APP.git
+* npm start
+* react-native run-android (android)
+*react-native run-ios (ios)
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+### Code Examples
+examples of usage:
+`code`
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
+### Features
+TODO-lists
+* Need to fix invariation errors
+* Add cities and its location description
+* Flexibility functions
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+### Status
+Project is: _in progress...
+
+### Contact
+Created by [@sengbh](https://github.com/sengbh) - feel free to contact me!
