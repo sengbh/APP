@@ -20,6 +20,7 @@ Again, the app is created for personal learning purpose.  The first app I create
 * Watchman - version 4.9.0
 * Git - version 2.17.1
 * Visual Studio Code - version 1.32.3
+* Ubuntu - version 18.04.2
 
 ## Setup
 Required Dependencie:
