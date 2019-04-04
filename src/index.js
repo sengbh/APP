@@ -15,15 +15,15 @@ const CitiesNav = createStackNavigator({
 },{
     navigationOptions: {
         headerStyle: {
-            backgroundColor: '#8B0000'
+            backgroundColor: colors.primary
         }, 
         headerTintColor: '#fff'
     }
-})
+});
 
 const Tabs = createBottomTabNavigator({
     Cities: {screen: CitiesNav},
     AddCity: {screen: AddCity} 
-})
+});
 
 export default Tabs
