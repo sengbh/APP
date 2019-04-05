@@ -34,8 +34,8 @@ Note: Node.js >= 4.0 is needed if you haven't installed
 * npm install -g react-native-cli
 
 Possible ERRORS:
-* npm start
-![image] (/home/bunrith/Pictures/npm-start-error.png)
+* npm start <br/>
+![image] (src/assets/npm-start-error.png)
 
 ##### run this project
 * git clone https://github.com/sengbh/APP.git
