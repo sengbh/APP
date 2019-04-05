@@ -9,7 +9,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import { createStackNavigator, 
-          createAppContainer 
+          createBottomTabNavigator 
       } from "react-navigation";
 
 /*const instructions = Platform.select({
@@ -18,10 +18,10 @@ import { createStackNavigator,
     'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 }); */
-import Tabs from './src'
+import Tabs from './src/index';
 import City from './src/Cities/City';
 
-export default class App extends Component {
+export default class App extends React.Component {
   state = {
     cities: []
   }
@@ -36,7 +36,7 @@ export default class App extends Component {
   render() {
     return (
     <Tabs
-      screenProps={{
+      screenProps = {{
         cities: this.state.cities, 
         addCity: this.addCity
       }}

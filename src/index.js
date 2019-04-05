@@ -11,7 +11,8 @@ import { conditionalExpression } from '@babel/types';
 
 const CitiesNav = createStackNavigator({
     Cities: {screen: Cities}, 
-    City: {screen: City}
+    City: {screen: City},
+    AddCity: {screen: AddCity}
 },{
     navigationOptions: {
         headerStyle: {
@@ -21,9 +22,6 @@ const CitiesNav = createStackNavigator({
     }
 });
 
-const Tabs = createBottomTabNavigator({
-    Cities: {screen: CitiesNav},
-    AddCity: {screen: AddCity} 
-});
+const Tabs = createBottomTabNavigator(CitiesNav);
 
-export default Tabs
+export default Tabs;
