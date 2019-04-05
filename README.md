@@ -14,15 +14,15 @@
 Again, the app is created for personal learning purpose.  The first app I create using React Native and its environment.
 
 ### Screenshots
-![Example screenshot](./img/screenshot.png)
+![screenshot](./img/screenshot.png)
 
-## Technologies
+### Technologies
 * Watchman - version 4.9.0
 * Git - version 2.17.1
 * Visual Studio Code - version 1.32.3
 * Ubuntu - version 18.04.2
 
-## Setup
+### Setup
 Required Dependencie:
 Note: Node.js >= 4.0 is needed if you haven't installed
 * iOS (install/Xcode)
@@ -33,11 +33,15 @@ Note: Node.js >= 4.0 is needed if you haven't installed
 
 * npm install -g react-native-cli
 
+Possible ERRORS:
+* npm start
+![image] /home/bunrith/Pictures/npm-start-error.png
+
 ##### run this project
 * git clone https://github.com/sengbh/APP.git
 * npm start
 * react-native run-android (android)
-*react-native run-ios (ios)
+* react-native run-ios (ios)
 
 
 ### Code Examples
