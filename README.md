@@ -35,7 +35,7 @@ Note: Node.js >= 4.0 is needed if you haven't installed
 
 Possible ERRORS:
 * npm start <br/>
-![image] (src/assets/npm-start-error.png)
+![image] (./src/assets/npm-start-error.png)
 
 ##### run this project
 * git clone https://github.com/sengbh/APP.git
